@@ -1,0 +1,34 @@
+2023-09-30 18:30:45 INFO ====== WebDriver manager ======
+2023-09-30 18:30:46 INFO Get LATEST chromedriver version for google-chrome
+2023-09-30 18:30:46 INFO Get LATEST chromedriver version for google-chrome
+2023-09-30 18:30:46 INFO Driver [C:\Users\Home\.wdm\drivers\chromedriver\win64\117.0.5938.92\chromedriver-win32/chromedriver.exe] found in cache
+2023-09-30 18:30:47 INFO Test login_negative Starting
+2023-09-30 18:30:49 INFO Send 'test' to element //*[@id="login"]/div[1]/label/input
+2023-09-30 18:30:49 INFO Send 'test' to element //*[@id="login"]/div[2]/label/input
+2023-09-30 18:30:49 INFO Click login button
+2023-09-30 18:30:49 INFO Start find error text
+2023-09-30 18:30:50 INFO We find text '401' in error field //*[@id="app"]/main/div/div/div[2]/h2
+2023-09-30 18:30:50 INFO Test login_positive Starting
+2023-09-30 18:30:50 INFO Send 'sem99' to element //*[@id="login"]/div[1]/label/input
+2023-09-30 18:30:50 INFO Send 'c0b881465c' to element //*[@id="login"]/div[2]/label/input
+2023-09-30 18:30:50 INFO Click login button
+2023-09-30 18:30:50 INFO Start find success text
+2023-09-30 18:30:52 INFO We find text 'Hello, sem99' in login field //*[@id="app"]/main/nav/ul/li[3]/a
+2023-09-30 18:30:52 INFO Test add_post Starting
+2023-09-30 18:30:52 INFO Click add post button
+2023-09-30 18:30:53 INFO Send 'Ornare' to element //*[@id="create-item"]/div/div/div[1]/div/label/input
+2023-09-30 18:30:53 INFO Send 'Venenatis dictum. Ornare non morbi vestibulum justo tempus et tempus lorem.' to element //*[@id="create-item"]/div/div/div[2]/div/label/span/textarea
+2023-09-30 18:30:53 INFO Send 'Ornare pellentesque velit hac ipsum interdum tortor, dolor elit.' to element //*[@id="create-item"]/div/div/div[3]/div/label/span/textarea
+2023-09-30 18:30:53 INFO Click save post button
+2023-09-30 18:30:53 INFO Start find new post
+2023-09-30 18:30:54 INFO We find new post title 'Ornare' in field //*[@id="app"]/main/nav/ul/li[3]/a
+2023-09-30 18:30:54 INFO Start find new post
+2023-09-30 18:30:55 INFO We find new post title 'Ornare' in field //*[@id="app"]/main/nav/ul/li[3]/a
+2023-09-30 18:30:55 INFO Test contact_us Starting
+2023-09-30 18:30:55 INFO Click contact button
+2023-09-30 18:30:57 INFO Send 'Vitaliy' to element //*[@id="contact"]/div[1]/label/input
+2023-09-30 18:30:57 INFO Send 'vivlgud@mail.ru' to element //*[@id = "contact"]/div[2]/label/input
+2023-09-30 18:30:57 INFO Send 'My Questions-....' to element //*[@id = "contact"]/div[3]/label/span/textarea
+2023-09-30 18:30:57 INFO Click contact us button
+2023-09-30 18:30:58 INFO Get alert message
+2023-09-30 18:30:58 INFO Alert message is Form successfully submitted
