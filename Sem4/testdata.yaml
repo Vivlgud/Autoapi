@@ -1,0 +1,17 @@
+address: https://test-stand.gb.ru
+browser: chrome
+sleep_time: 10
+
+login: sem99
+pswd: c0b881465c
+
+title: Ornare
+description: Venenatis dictum. Ornare non morbi vestibulum justo tempus et tempus lorem.
+content: Ornare pellentesque velit hac ipsum interdum tortor, dolor elit.
+
+your_name: Vitaliy
+your_email: vivlgud@mail.ru
+content_2: My Questions-....
+
+address1: https://test-stand.gb.ru/gateway/login
+address2: https://test-stand.gb.ru/api/posts
